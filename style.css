@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+html,
+body {
+  color: #2d2d2d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Dancing Script", cursive;
+}
+
+header {
+  background: #25283d;
+  color: #f3fcf0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-top: 0;
+}
+
+header nav ul {
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+header nav li a {
+  color: #f3fcf0;
+  margin: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+header nav li a:hover {
+  color: #ffd23f;
+  border-bottom: 2px dotted #ffd23f;
+}
+
+main {
+  margin: 10px auto;
+  width: 90%;
+}
+
+main a {
+  color: #a675a1;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: #25283d;
+}
+
+main img {
+  border: 2px solid #25283d;
+  border-radius: 3px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+}
+
+main aside {
+  font-size: 14px;
+}
+
+main aside span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+main .featured,
+main .posts {
+  column-gap: 30px;
+  display: grid;
+  line-height: 1.5;
+  margin: 25px 0;
+}
+
+main .featured {
+  grid-template-columns: 2fr 1fr;
+}
+
+main .featured h2 {
+  font-size: 36px;
+}
+
+main .posts {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer {
+  background: #25283d;
+  color: #f3fcf0;
+  font-size: 14px;
+  padding: 25px;
+  text-align: right;
+}
