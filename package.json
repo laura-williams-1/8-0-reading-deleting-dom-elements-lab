@@ -4,15 +4,15 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "live-server . --port=5000",
+    "start": "live-server . --port=5001",
     "test": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.3.1",
-    "cypress-watch-and-reload": "^1.5.3",
-    "live-server": "^1.2.1"
+    "cypress": "9.7.0",
+    "cypress-watch-and-reload": "1.10.3",
+    "live-server": "1.1.0"
   }
 }

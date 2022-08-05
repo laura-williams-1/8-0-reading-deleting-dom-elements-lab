@@ -17,4 +17,5 @@
  */
 module.exports = (on, config) => {
   require("cypress-watch-and-reload/plugins")(config);
+  return config;
 };
